@@ -1,0 +1,52 @@
+.top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.double{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.topbuttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.sign_in{
+    border-radius: 12%;
+    background-color: white;
+    color: #0850F8;
+    font-weight: 600;
+    border: 1px solid #0850F8;
+}
+
+.try{
+    border-radius: 12%;
+    background-color: border-radius: 12%;
+    background-color: #0850F8;
+    color: white;
+    border: 1px solid #0850F8;
+    font-weight: 600;
+}
+
+.bottom{
+    background-color: #0850F8;
+    color: white
+}
+
+.today{
+    font-size: 40px;
+    font-weight: 600;
+}
