@@ -41,9 +41,10 @@
     border-radius: 50%;
     font-size: 24px;
     margin: 4px 2px;
-    border-radius: 20px;
+    border-radius: 50px;
     width: 600px;
     height: 70px;
+    opacity: 0.6;
 }
 
 .sign_up_button {
@@ -57,7 +58,7 @@
     font-size: 22px;
     font-weight: bold;
     margin: 4px 2px;
-    border-radius: 20px;
+    border-radius: 50px;
     width: 270px;
 }
 
