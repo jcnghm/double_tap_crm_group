@@ -1,3 +1,171 @@
+/* Header Styling */
+.top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: auto;
+}
+
+.double{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+a{
+    color: black;
+}
+
+.topbuttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.sign_in{
+    border-radius: 12%;
+    background-color: white;
+    color: #0850F8;
+    font-weight: 600;
+    border: 1px solid #0850F8;
+}
+
+.try{
+    border-radius: 12%;
+    border-radius: 12%;
+    background-color: #0850F8;
+    color: white;
+    border: 1px solid #0850F8;
+    font-weight: 600;
+}
+
+/* Focus Styling */
+
+.focusbiz{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    justify-content: center;
+    margin-left: 12%;
+    margin-top: 5%;
+}
+
+.topleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    margin-right: 5%;   
+}
+
+.topright{
+    height: 575px;
+    width: 575px;
+    margin-left: 3%;
+    margin-right: 5%;
+}
+
+.focus{
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.handle{
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.billing {
+    font-weight: 700;
+    font-size: 18px;
+    color: #A3A3A3;
+    margin-top: 15px;
+}
+
+.focusbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.signupfree{
+    background-color: #0850F8;
+    color: white;
+    border-radius: 25px;
+    width: 175px;
+    height: 80px;
+    margin-right: 3%;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.chat1{
+    background-color: white;
+    color: #0850F8;
+    border-radius: 25px;
+    border: 1px solid #0850F8;
+    font-weight: 800;
+    width: 175px;
+    height: 80px;
+    font-size: 20px;
+}
+
+#gridoptions{
+    height: 100%;
+}
+
+.alreadysign{
+    display: flex;
+    flex-direction: row;
+    color: #838282;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.already, .tap{
+    font-weight: 600;
+}
+
+.doublebold, .signinbold{
+    font-weight: 900;
+}
+
+.doublebold, .signinbold{
+    margin-left: 5px;
+}
+
+.free, .cancel, .manage{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.free::after, .manage::after {
+    font-family: "webdings";
+    content: "= ";
+    padding: 5px;
+    color: #0850F8;
+}
+
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
 .flexbox_item {
     display: grid;
     grid-template-columns: auto;
@@ -115,3 +283,68 @@
 }
 
 
+
+
+
+/* Footer Styling */
+.bottom{
+    display: flex;
+    background-color: #0850F8;
+    color: white;
+    flex-direction: column;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.today{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.letsstart{
+    text-align: center;
+    font-size: 25px;
+}
+
+.bottombuttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.start{
+    background-color: #7FD126;
+    color: white;
+    border-radius: 12%;
+    font-weight: 500;
+}
+
+.chat2{
+    background-color: white;
+    color: #0850F8;
+    border-radius: 25px;
+    border: 1px solid #0850F8;
+    font-weight: 800;
+    width: 175px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.line2{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.free2::after, .manage2::after {
+    font-family: "webdings";
+    content: "= ";
+    padding: 5px;
+    color: white;
+}
+
+.free2, .cancel2, .manage2{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
