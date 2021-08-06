@@ -83,3 +83,23 @@
     width: 1500px;
     height: 1300px;
 }
+
+.signupbutton {
+    margin-left: 400px;
+    margin-top: 300px;
+}
+
+.button2 {
+    background-color: #264DE6;
+    border: 2px white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 4px 2px;
+    border-radius: 20px;
+    width: 270px;
+}
