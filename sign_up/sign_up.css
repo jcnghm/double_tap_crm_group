@@ -68,9 +68,5 @@
 
 .foot {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }
-
-
-/* Need to add social media icon formatting */
