@@ -1,6 +1,7 @@
 .window {
     height: 1000px;
-    margin-top: 5%;
+    margin-top: 0%;
+    display: flex;
 }
 
 .page {
@@ -9,6 +10,8 @@
    margin-right: 15%;
    align-content: center;
    height: 100%;
+   margin-left: 15%;
+   margin-top: 5%;
 }
 
 .upperbody {
@@ -73,4 +76,10 @@
     height: 75px;
     width: 75px;
     margin-top: -6px;
+}
+
+.leftside {
+    background-image: url(images/rocket1234.png);
+    width: 1500px;
+    height: 1300px;
 }
