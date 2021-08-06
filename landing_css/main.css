@@ -187,3 +187,14 @@
     border-radius: 12%;
     border: 1px solid black;
 }
+
+.container-md{
+    justify-content: space-between;
+
+    align-content:center;
+}
+
+.container-md > item-4{
+
+ width:100px;
+}
