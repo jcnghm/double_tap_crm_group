@@ -1,29 +1,30 @@
-.container{
-    
-    
-
-
-}
-
 .flexbox_item {
     display: grid;
     grid-template-columns: auto;
-    grid-auto-rows: minmax(150px, auto);
-
-    margin: 10px;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+         "header header"
+         "sidebar content"
+         "sidebar content"
+         "body body"
+         "side footer"
+         "side footer";
     align-items: center;
+    align-content: center;
     
         
 }
 
 #para3 {
+    font-size: x-large;
+    color: black;
     text-align: center;
 
 }
 
 #para2, #para4 {
     color: #eee;
-    text-align: center;
+    
 
   }
 
@@ -38,6 +39,7 @@
     text-align: center;
 }
 .how{
+    grid-area: header;
     padding-top: 70px;
     padding-bottom: 100px;
     padding-left: 50px ;
@@ -49,55 +51,67 @@
     
 
 }
-.colection{
-    flex-wrap: wrap;
 
-}
 
 .img-collect{
-    height:50%;
-    width:50%;
+    grid-area: sidebar;
+    border: .5px solid grey;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 100%;
+    width: 100%;
 
 }
 
 .collect{
-    position: absolute;
-    right:0;
+    grid-area: content;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
     background-color: rgb(8, 80, 248);
-    width: 50%; 
-    height: 50%;
-    justify-items: end;
+    width: 70%; 
+    height: 73%;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
 
 }
 
 
 .lorem{
+    margin:auto;
+    grid-area: body;
     padding-top: 200px;
     padding-bottom: 100px;
     padding-left: 50px ;
     padding-right: 50px;
     text-align: center;
     width: 100%; 
-    height: 25%;
+    height: 100%;
 
 
 
 }
+
+#img-take{
+    grid-area: side;
+    height: 50%;
+    width: 100%;
+    
+}
+
 .get{
+    grid-area: footer;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 50px ;
     padding-right: 50px;
     background-color: rgb(8, 80, 248);
     text-align: center;
-    width: 50%; 
-    height:25%
+    width: 70%; 
+    height: 73%;
 
 }
 
 
-}
