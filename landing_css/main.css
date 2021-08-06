@@ -1,3 +1,4 @@
+/* Header Styling */
 .top{
     display: flex;
     align-items: flex-end;
@@ -41,12 +42,86 @@
     font-weight: 600;
 }
 
+
+/* Focus Styling */
+
+.focus{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.focusbiz{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 200px;
+}
+
+.topright{
+    max-height: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Styling */
 .bottom{
+    display: flex;
     background-color: #0850F8;
-    color: white
+    color: white;
+    flex-direction: column;
 }
 
 .today{
     font-size: 40px;
     font-weight: 600;
+    text-align: center;
+}
+
+.letsstart{
+    text-align: center;
+    font-size: 25px;
+}
+
+.bottombuttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefits{
+    text-align: center;
+}
+
+.start{
+    background-color: #7FD126;
+    color: white;
+    border-radius: 12%;
+}
+
+.chat{
+    background-color: white;
+    color: #0850F8;
+    border-radius: 12%;
+    border: 1px solid black;
 }
