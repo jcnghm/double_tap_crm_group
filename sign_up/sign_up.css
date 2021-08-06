@@ -70,3 +70,9 @@
     display: flex;
     justify-content: space-evenly; 
 }
+
+.googleimg {
+    height: 75px;
+    width: 75px;
+    margin-top: -6px;
+}
