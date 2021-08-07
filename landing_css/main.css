@@ -47,6 +47,9 @@ a{
 }
 
 
+
+
+
 /* Focus Styling */
 
 .focusbiz{
@@ -162,30 +165,55 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
+
+
+/* Start to Explore Styling */
+
+.startexplore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    height: 200px;
+}
+
+.explore{
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.betterway, .track{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+
+
 /* Credit Card Info*/
 
 .container-credit{
-    display: grid;
-    grid-auto-rows: minmax(200px, auto);
-    grid-template-areas: 
-    "sidebar content";
-    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 .img{
-    border: 1px solid grey;
+    border: 1px solid black;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
-    height: 100%;
-    width: 100%;
+    height: 500px;
+    width: 500px;
 }
 
 .credit{
     background:rgb(8, 80, 248);
+    color: white;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    height: 100%;
-    width: 100%;
 }
 #head{
     color:#fff;
@@ -212,11 +240,42 @@ a{
 
 .button1{
     background-color: #0850F8;
+    color: white;
     border: 2px #fff;
     text-align: center;
     font: small #fff;
     margin: 4px 2px;
 }
+
+
+
+
+
+/* Solutions to fit your business styling */
+
+.container-md{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    justify-content: space-between;
+    align-content:center;
+}
+
+.item-4{
+    padding-left: 70px;
+    margin-top: -35px;
+}
+
+.item-2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+
+
 
 /* Footer Styling */
 .bottom{
@@ -251,85 +310,12 @@ a{
     font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .chat2{
     background-color: white;
     color: #0850F8;
 
     border-radius: 12%;
     border: 1px solid black;
-}
-
-.container-md{
-    justify-content: space-between;
-
-    align-content:center;
-}
-
-.container-md > item-4{
-
- width:100px;
-
-    border-radius: 25px;
-    border: 1px solid #0850F8;
-    font-weight: 800;
-    width: 175px;
-    height: 50px;
-    font-size: 20px;
 }
 
 .line2{
