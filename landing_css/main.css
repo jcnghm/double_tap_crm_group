@@ -162,7 +162,61 @@ a{
     display: flex;
     justify-content: space-evenly;
 }
+/* Credit Card Info*/
 
+.container-credit{
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-template-areas: 
+    "sidebar content";
+    margin: 100px;
+}
+
+.img{
+    border: 1px solid grey;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.credit{
+    background:rgb(8, 80, 248);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 100%;
+    width: 100%;
+}
+#head{
+    color:#fff;
+    text-align: start;
+    font: xx-large bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#para1 {
+    color:#fff;
+    text-align: start;
+    font: large bold;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#para2 {    
+    color:#fff;
+    font: xx-small;
+    padding-left: 20px;
+}
+
+.button1{
+    background-color: #0850F8;
+    border: 2px #fff;
+    text-align: center;
+    font: small #fff;
+    margin: 4px 2px;
+}
 
 /* Footer Styling */
 .bottom{
