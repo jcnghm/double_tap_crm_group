@@ -4,6 +4,7 @@
     align-items: flex-end;
     justify-content: space-evenly;
     width: auto;
+    font-weight: 600;
 }
 
 .double{
@@ -30,17 +31,20 @@ a{
 }
 
 .sign_in{
-    border-radius: 12%;
+    border-radius: 12px;
     background-color: white;
+    width: 100px;
+    height: 30px;
     color: #0850F8;
     font-weight: 600;
     border: 1px solid #0850F8;
 }
 
 .try{
-    border-radius: 12%;
-    border-radius: 12%;
+    border-radius: 12px;
     background-color: #0850F8;
+    width: 100px;
+    height: 30px;
     color: white;
     border: 1px solid #0850F8;
     font-weight: 600;
@@ -102,7 +106,7 @@ a{
     border-radius: 25px;
     width: 175px;
     height: 80px;
-    margin-right: 3%;
+    margin-right: 15px;
     font-size: 20px;
     font-weight: 700;
 
@@ -315,19 +319,19 @@ a{
 .start{
     background-color: #7FD126;
     color: white;
-    border-radius: 12%;
-    font-weight: 500;
+    border-radius: 12px;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
 }
 
 .chat2{
     background-color: white;
     color: #0850F8;
-    border-radius: 25px;
-    border: 1px solid #0850F8;
-    font-weight: 800;
-    width: 175px;
-    height: 50px;
-    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 12px;
+    border: 1px solid black;
 }
 
 .line2{
