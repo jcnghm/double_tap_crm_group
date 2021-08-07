@@ -146,6 +146,7 @@ a{
 
 .doublebold, .signinbold{
     font-weight: 900;
+    color: gray;
 }
 
 .doublebold, .signinbold{

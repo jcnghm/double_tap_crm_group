@@ -30,6 +30,9 @@ a{
     width: 15%;
 }
 
+.signinbold {
+    color: gray;
+}
 .sign_in{
     border-radius: 12px;
     background-color: white;
@@ -48,6 +51,10 @@ a{
     color: white;
     border: 1px solid #0850F8;
     font-weight: 600;
+}
+
+.home {
+    color: black;
 }
 
 /* Focus Styling */
@@ -188,7 +195,7 @@ a{
 }
 
 #para3 {
-    font-size: x-large;
+    font-size: 26px;
     color: black;
     text-align: center;
 
@@ -196,6 +203,8 @@ a{
 
 #para2, #para4 {
     color: #eee;
+    font-size: 26;
+
     
 
   }
@@ -220,6 +229,7 @@ a{
     border-width: 1px 0 0 0;
     width: 100%; 
     height: 25%;
+    font-size: 26;;
     
 
 }
@@ -242,7 +252,7 @@ a{
     background-color: rgb(8, 80, 248);
     width: 70%; 
     height: 73%;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 40px;
     padding-right: 40px;
 
@@ -251,6 +261,7 @@ a{
 
 .lorem{
     margin:auto;
+    font-size: 28;
     grid-area: body;
     padding-top: 200px;
     padding-bottom: 100px;
@@ -275,7 +286,7 @@ a{
     grid-area: footer;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
     padding-left: 50px ;
     padding-right: 50px;
