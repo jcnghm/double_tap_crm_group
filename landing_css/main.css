@@ -251,9 +251,79 @@ a{
     font-weight: 500;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .chat2{
     background-color: white;
     color: #0850F8;
+
+    border-radius: 12%;
+    border: 1px solid black;
+}
+
+.container-md{
+    justify-content: space-between;
+
+    align-content:center;
+}
+
+.container-md > item-4{
+
+ width:100px;
+
     border-radius: 25px;
     border: 1px solid #0850F8;
     font-weight: 800;
@@ -279,4 +349,5 @@ a{
     margin-top: 30px;
     font-size: 16px;
     font-weight: 600;
+
 }
