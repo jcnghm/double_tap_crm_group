@@ -185,13 +185,14 @@ a{
 
 .explore{
     justify-content: center;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .betterway, .track{
+    margin-top: 20px;;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 
@@ -256,8 +257,15 @@ a{
 
 
 
-
 /* Solutions to fit your business styling */
+
+.starttofit {
+    font-size: 40px;
+    margin-left: 950px;
+    margin-top: 110px;
+    margin-bottom: -90px;
+    font-weight: 600;
+}
 
 .container-md{
     display: grid;
@@ -267,15 +275,61 @@ a{
     align-content:center;
 }
 
+.itembutton {
+    width: 200px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.item-button1 {
+    margin-left: 130px;
+    margin-top: 20px;
+    
+}
+
+.item-button2 {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+    
+.item-button3 {
+    margin-left: 130px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.item-button4 {
+    margin-left: 130px;
+    margin-bottom: 100px;
+    margin-top: -10px;  
+}
+
+.item-3 {
+    margin-top: -330px;
+}
+
 .item-4{
     padding-left: 70px;
     margin-top: -35px;
+    margin-top: -360px;
 }
 
 .item-2{
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.item-1 {
+    margin-top: 110px;
+}
+
+.item-2 {
+    margin-top: 130px;
 }
 
 
