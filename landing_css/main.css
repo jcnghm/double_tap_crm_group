@@ -108,7 +108,7 @@ a{
     background-color: #0850F8;
     color: white;
     border-radius: 25px;
-    width: 175px;
+    width: 225px;
     height: 80px;
     margin-right: 15px;
     font-size: 20px;
@@ -122,9 +122,10 @@ a{
     border-radius: 25px;
     border: 1px solid #0850F8;
     font-weight: 800;
-    width: 175px;
+    width: 225px;
     height: 80px;
     font-size: 20px;
+    margin-left: 15px;
 }
 
 #gridoptions{
@@ -159,7 +160,7 @@ a{
     font-weight: 600;
 }
 
-.free::after, .manage::after {
+.cancel::before, .manage::before {
     font-family: "webdings";
     content: "= ";
     padding: 5px;
@@ -168,7 +169,7 @@ a{
 
 .line{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 
@@ -289,41 +290,52 @@ a{
     color: white;
     flex-direction: column;
     height: 300px;
-    padding-top: 10px;
+    padding: 20px;
 }
 
 .today{
     font-size: 40px;
     font-weight: 600;
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .letsstart{
     text-align: center;
     font-size: 25px;
+    padding-bottom: 10px;
 }
 
 .bottombuttons{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
 }
+
 
 .start{
     background-color: #7FD126;
     color: white;
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 200px;
     border-radius: 12px;
     font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
 }
 
 .chat2{
     background-color: white;
     color: #0850F8;
-    height: 40px;
-    width: 150px;
+    height: 50px;
+    width: 200px;
     border-radius: 12px;
     border: 1px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
 }
 
 .line2{
@@ -332,7 +344,7 @@ a{
     margin-top: -20px;
 }
 
-.free2::after, .manage2::after {
+.manage2::before, .cancel2::before {
     font-family: "webdings";
     content: "= ";
     padding: 5px;
