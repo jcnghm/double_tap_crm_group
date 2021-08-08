@@ -195,7 +195,55 @@ a{
     font-weight: 600;
 }
 
+/* Payments, Retain, Reporting and Convert Styling */
 
+.exploregrid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    height: 150px;
+    margin-bottom: 150px;
+}
+
+.moneysignicon{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 125px;
+    background-color: #0850F8;
+    justify-content: space-evenly;
+    border-radius: 12%;
+    align-items: center;
+    margin-right: -50px;
+}
+
+.money{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    width: 60px;
+}
+
+.paymentsicon{
+    color: white;
+}
+
+.retainclients, .reportingstats, .convertclients{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 125px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    border-radius: 12%;
+    align-items: center;
+    margin-right: -50px;
+}
 
 
 
